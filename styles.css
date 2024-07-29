@@ -12,28 +12,42 @@ body {
 
 .body-header {
     text-align: center;
-    background-color: aqua;
 }
 
 .body-center {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: azure;
     flex-grow: 1;
+}
+
+button {
+    background-color: rgba(0, 81, 255, 0.808);
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+button:active {
+    background-color: rgba(0, 81, 255, 0.61);
+}
+
+input {
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .body-footer {
     text-align: center;
-    background-color: yellow;
 }
 
 #grid {
-    background-color: pink;
     display: flex;
     flex-wrap: wrap;
     height: 500px;
     width: 500px;
     border: 2px solid black;
-    
 }
