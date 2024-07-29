@@ -8,6 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(painting.jpg);
+    background-size: cover;
 }
 
 .body-header {
@@ -42,6 +44,7 @@ input {
 
 .body-footer {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #grid {
